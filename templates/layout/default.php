@@ -41,7 +41,7 @@ $cakeDescription = 'Baens Bar Auto-snipper';
             <a href="<?= $this->Url->build('/') ?>"><span>Baen's Bar</span> AutoSnipper</a>
         </div>
 		<div>
-			<?= $this->Html->link('Log Out', ['action' => '/users/logout'], ['class' => 'button float-right']) ?>
+            <a href="<?= $this->Url->build('/users/logout') ?>" class='button float-right'>LOG OUT</a>
 		</div>
         <div class="top-nav-links">
 			<span style="font-size: 2.4rem;color: #d33c43;font-weight: bold;">Maintain: </span>
