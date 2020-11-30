@@ -47,7 +47,7 @@
 			</tbody>
 		</table>
 	</div>
-	<div><a href="/books/indexall" class="button float-left">See all finished and not.</a></div>
+	<div><a href="/books/index" class="button float-left">See only not finished.</a></div>
 	<div class="paginator">
 		<ul class="pagination">
 			<?= $this->Paginator->first('<< ' . __('first')) ?>

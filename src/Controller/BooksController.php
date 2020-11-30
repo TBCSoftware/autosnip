@@ -15,9 +15,17 @@ class BooksController extends AppController
 	
 	public function index()
     {
-		$books = $this->Paginator->paginate($this->Books->find());
+		$books = $this->Paginator->paginate($this->Books->find()
+			->where(['Books.Finished = 0'])
+		);
         $this->set(compact('books'));
     }
+	
+	public function indexall()
+    {
+		$books = $this->Paginator->paginate($this->Books->find());
+        $this->set(compact('books'));
+	}
 	
 	public function view($slug = null)
 	{
