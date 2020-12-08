@@ -45,14 +45,14 @@ return [
             //'port' => 'non_standard_port_number',
 
             // User info for Rick Development Server
-            // 'username' => 'snip',
-            // 'password' => 'snip',
-            // 'database' => 'snip',
+            'username' => 'snip',
+            'password' => 'snip',
+            'database' => 'snip',
 
             //User Info for Baen's running server 
-            'username' => 'Rick',
-            'password' => 'sAR25nKOERCcuhZU',
-            'database' => 'snippets',
+            // 'username' => 'Rick',
+            // 'password' => 'sAR25nKOERCcuhZU',
+            // 'database' => 'snippets',
 
             /*
              * If not using the default 'public' schema with the PostgreSQL driver

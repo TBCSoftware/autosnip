@@ -131,7 +131,7 @@ class Application extends BaseApplication
 	public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface
 	{
 		$authenticationService = new AuthenticationService([
-			'unauthenticatedRedirect' => '/users/login',
+			'unauthenticatedRedirect' => '/autosnip/users/login',
 			'queryParam' => 'redirect',
 		]);
 
@@ -151,7 +151,7 @@ class Application extends BaseApplication
 				'username' => 'email',
 				'password' => 'password',
 			],
-			'loginUrl' => '/users/login',
+			'loginUrl' => '/autosnip/users/login',
 		]);
 
 		return $authenticationService;

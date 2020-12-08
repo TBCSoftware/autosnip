@@ -110,8 +110,8 @@ class UsersController extends AppController
 		// the infinite redirect loop issue
 		$this->Authentication->addUnauthenticatedActions(['login']);
 //		UNCOMMENT these lines to deal with unencrypted passwords. 
-//		$this->Authentication->addUnauthenticatedActions(['index']);
-//		$this->Authentication->addUnauthenticatedActions(['edit']);
+		$this->Authentication->addUnauthenticatedActions(['index']);
+		$this->Authentication->addUnauthenticatedActions(['edit']);
 	}
 
 	public function login()
