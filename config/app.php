@@ -413,5 +413,6 @@ return [
      */
     'Session' => [
         'defaults' => 'php',
+        'cookie' => 'BAENSNIPPETS'
     ],
 ];
